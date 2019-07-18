@@ -2,6 +2,8 @@
 
 饼图，android 图表。会根据定义PieChartView的大小自动居中，所以如果要调整位置，只需要在xml更改PieChartView位置大小即可
 
+[https://github.com/ccMagic/PieChart](https://github.com/ccMagic/PieChart)
+
 ### 1、先看一下效果图：
 
 ![gif图](pictures/device-2019-07-18-193046-min.gif)
