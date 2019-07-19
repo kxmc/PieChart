@@ -263,23 +263,6 @@ public class PieChartView extends View {
 
     }
 
-//    private int getSize(int measureSpec) {
-//        int mode = MeasureSpec.getMode(measureSpec);
-//        switch (mode) {
-//            case MeasureSpec.EXACTLY:
-//                //在此模式下，父容器已经检测出子view所需要的精确大小，这个时候，view的测量大小就是通过getSize得到的数值。
-//                return MeasureSpec.getSize(measureSpec);
-//            case MeasureSpec.AT_MOST:
-//                //在此模式下，父容器未能检测出子view的大小，但指定了一个最大大小spec size，子view的大小不能超过此值。
-//                return MeasureSpec.getSize(measureSpec);
-//
-//            case MeasureSpec.UNSPECIFIED:
-//                //在此模式下，父容器不对子view的大小做限制，一般用于系统内部，或者ListView ScrollView等滑动控件。
-//                return -1;
-//            default:
-//                return 0;
-//        }
-//    }
 
     @Override
     protected void onDraw(Canvas canvas) {
@@ -384,7 +367,7 @@ public class PieChartView extends View {
          * @param name 扇形区域名称
          * @param num  扇形区域配置，不用特别按360或100整额处理
          *             因为最终会设置的每个值来调配百分比
-         * @param name 扇形区域颜色
+         * @param color 扇形区域颜色
          */
         public Part(String name, int num, @ColorInt int color) {
             this.name = name;

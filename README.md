@@ -6,10 +6,10 @@
 
 ### 1、先看一下效果图：
 
-<img src="pictures/device-2019-07-18-193046-min.gif" width = "216" height = "432" div align=center />
+![pictures/device-2019-07-18-193046-min.gif](pictures/device-2019-07-18-193046-min.gif)
 可能gif加载过慢，可以看下：
 
-<img src="pictures/深度截图_选择区域_20190718200229.png" width = "648" height = "432" div align=center />
+![pictures/深度截图_选择区域_20190718200229.png](pictures/深度截图_选择区域_20190718200229.png)
 
 ### 2、使用方式
 
