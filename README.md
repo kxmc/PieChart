@@ -1,18 +1,15 @@
 # PieChart
 
-饼图，android 图表。会根据定义PieChartView的大小自动居中，所以如果要调整位置，只需要在xml更改PieChartView位置大小即可
+饼图，android 图表。会根据定义PieChartView的大小自动居中，所以如果要调整位置，只需要在xml更改PieChartView位置大小即可。
 
 [https://github.com/ccMagic/PieChart](https://github.com/ccMagic/PieChart)
 
 ### 1、先看一下效果图：
 
-![gif图](pictures/device-2019-07-18-193046-min.gif)
-
-
-
+<img src="pictures/device-2019-07-18-193046-min.gif" width = "216" height = "432" div align=center />
 可能gif加载过慢，可以看下：
 
-![饼图展示](pictures/深度截图_选择区域_20190718200229.png)
+<img src="pictures/深度截图_选择区域_20190718200229.png" width = "648" height = "432" div align=center />
 
 ### 2、使用方式
 
@@ -109,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         }
 ```
 
-#### b、配合算法
+#### b、配额算法
 
 ```java
   float sum = 0;
